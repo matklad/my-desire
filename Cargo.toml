@@ -1,0 +1,9 @@
+[package]
+name = "my-desire"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "poc generic and injection-proof interpolation API for Rust"
+
+[dependencies]
+my-desire-macros = {path="./my-desire-macros", version="0.1.0"}
